@@ -11,7 +11,7 @@ To create an application that uses GUI Components with Fonts and Colors using An
 Latest Version Android Studio
 
 ## ALGORITHM:
-
+```
 Step 1: Open Android Studio and then click on File -> New -> New project.
 Step 2: Then type the Application name as HelloWorld and click Next.
 Step 3: Then select the Minimum SDK as shown below and click Next. 
@@ -19,6 +19,7 @@ Step 4: Then select the Empty Activity and click Next. Finally click Finish.
 Step 5: Design layout in activity_main.xml 
 Step 6: Display message give in MainActivity file. 
 Step 7: Save and run the application.
+```
 
 
 ## PROGRAM:
@@ -30,6 +31,7 @@ Registeration Number :212222047001
 */
 ```
 ## ACTIVITY MAIN-XML:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -75,7 +77,9 @@ Registeration Number :212222047001
         app:layout_constraintVertical_bias="0.757" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
 ## MAIN ACTIVITY-JAVA:
+```
 package com.example.gui_components;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -125,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
 
 }
 }
-
+```
 ## OUTPUT
 <img width="2158" height="1365" alt="image" src="https://github.com/user-attachments/assets/eef17f5a-eea1-4ee9-b80c-920ab61fe0f0" />
 
